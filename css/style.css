@@ -5,6 +5,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9767,4 +9768,8 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.borderfoto{
+  border-radius: 50%;
 }
