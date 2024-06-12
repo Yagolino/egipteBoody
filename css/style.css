@@ -9778,3 +9778,12 @@ h6,
   font-family: 'Great Vibes', cursive;  
             
 }
+.work-in-progress {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  color: #fa38f7; /* Puedes cambiar el color según tus necesidades */
+}
+.work-in-progress i {
+  margin-right: 8px;
+}
