@@ -2065,7 +2065,7 @@ textarea.form-control {
   width: 100%;
   margin-top: 0.25rem;
   font-size: 80%;
-  color: #28a745;
+  color: #e48816;
 }
 
 .valid-tooltip {
@@ -2091,7 +2091,7 @@ textarea.form-control {
 }
 
 .was-validated .form-control:valid, .form-control.is-valid {
-  border-color: #28a745;
+  border-color: #de6f14;
   padding-right: calc(1.5em + 0.75rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2100,7 +2100,7 @@ textarea.form-control {
 }
 
 .was-validated .form-control:valid:focus, .form-control.is-valid:focus {
-  border-color: #28a745;
+  border-color: #de6f14;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
@@ -2110,18 +2110,18 @@ textarea.form-control {
 }
 
 .was-validated .custom-select:valid, .custom-select.is-valid {
-  border-color: #28a745;
+  border-color: de6f14;
   padding-right: calc(0.75em + 2.3125rem);
   background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") #fff no-repeat center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 
 .was-validated .custom-select:valid:focus, .custom-select.is-valid:focus {
-  border-color: #28a745;
+  border-color: de6f14;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
 .was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label {
-  color: #28a745;
+  color: de6f14;
 }
 
 .was-validated .form-check-input:valid ~ .valid-feedback,
@@ -2131,11 +2131,11 @@ textarea.form-control {
 }
 
 .was-validated .custom-control-input:valid ~ .custom-control-label, .custom-control-input.is-valid ~ .custom-control-label {
-  color: #28a745;
+  color: de6f14;
 }
 
 .was-validated .custom-control-input:valid ~ .custom-control-label::before, .custom-control-input.is-valid ~ .custom-control-label::before {
-  border-color: #28a745;
+  border-color: de6f14;
 }
 
 .was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.is-valid:checked ~ .custom-control-label::before {
@@ -2148,15 +2148,15 @@ textarea.form-control {
 }
 
 .was-validated .custom-control-input:valid:focus:not(:checked) ~ .custom-control-label::before, .custom-control-input.is-valid:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #28a745;
+  border-color: #de6f14;
 }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.is-valid ~ .custom-file-label {
-  border-color: #28a745;
+  border-color: #de6f14;
 }
 
 .was-validated .custom-file-input:valid:focus ~ .custom-file-label, .custom-file-input.is-valid:focus ~ .custom-file-label {
-  border-color: #28a745;
+  border-color: #de6f14;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
@@ -4701,7 +4701,7 @@ a.badge-secondary:focus, a.badge-secondary.focus {
 
 .badge-success {
   color: #fff;
-  background-color: #28a745;
+  background-color: #de6f14;
 }
 
 a.badge-success:hover, a.badge-success:focus {
@@ -6115,7 +6115,7 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #28a745 !important;
+  background-color: #de6f14 !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
@@ -6231,7 +6231,7 @@ button.bg-dark:focus {
 }
 
 .border-success {
-  border-color: #28a745 !important;
+  border-color: #de6f14 !important;
 }
 
 .border-info {
@@ -9718,7 +9718,7 @@ h6,
   margin: 0 5px;
   width: 20px;
   height: 20px;
-  background: #DDDDDD;
+  background: #dfdfdf;
   transition: .5s;
 }
 
@@ -9781,4 +9781,103 @@ h6,
 
 .experience-font {
   font-family: 'Monoton', cursive;
+}
+
+
+
+
+
+ /* Animación de rebote */
+ .animated-bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-20px);
+  }
+  60% {
+      transform: translateY(-10px);
+  }
+}
+
+/* Estilo del botón */
+.opiniones-btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.opiniones-btn:hover {
+  background-color: #eb640b;
+}
+
+
+    /* Animación de rebote */
+    .animated-bounce {
+      animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+          transform: translateY(0);
+      }
+      40% {
+          transform: translateY(-20px);
+      }
+      60% {
+          transform: translateY(-10px);
+      }
+  }
+
+  /* Estilo del botón */
+  .opiniones-btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px; /* Ajusta el relleno para tu diseño */
+      border-radius: 50px; /* Bordes redondeados */
+      background-color: white; /* Color de fondo blanco */
+      color: black; /* Color de texto negro */
+      border: 2px solid black; /* Borde negro */
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px 20px; /* Ajusta el relleno para tu diseño */
+        border-radius: 50px; /* Bordes redondeados */
+        background-color: white; /* Color de fondo blanco */
+        color: black; /* Color de texto negro */
+        border: 2px solid black; /* Borde negro */
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .opiniones-btn:hover {
+      background-color: #de6f14; /* Color de fondo al pasar el ratón */
+      color: white; /* Color de texto al pasar el ratón */
+  }
+
+
+  .rounded-pill {
+    border-radius: 50px; /* Ajusta el tamaño de los bordes redondos */
+    padding: 10px 20px; /* Ajusta el relleno del botón */
+    font-weight: bold; /* Opcional: ajusta el peso de la fuente */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+.btn i {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
 }

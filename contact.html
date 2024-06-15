@@ -112,9 +112,20 @@
             <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 800px">
                 <h3 class="display-4 text-white text-uppercase"></h3>
                 <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
-                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Contact Boody</p>
+                    
+    <div class="d-flex flex-column align-items-center justify-content-center">
+        <a href="#ex-viajerxs" class="btn btn-lg btn-primary btn-lg-square opiniones-btn animated-bounce"><i class="fa fa-comments"></i> </a>
+        <a href="#ex-viajerxs" class="  py-md-3 px-md-5 mt-2 hobby-font text-primary"><p>mis ex viajeros</p></a> 
+        <script>
+            document.querySelector('.opiniones-btn').addEventListener('click', function(e) {
+                e.preventDefault();
+                document.getElementById('ex-viajerxs').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        </script>
+    </div>
+    
                 </div>
             </div>
         </div>
@@ -122,43 +133,44 @@
 
     
     <!-- Header End -->
-<!-- Contact Directly Start -->
-<div class="container-fluid py-5 bg-light">
-    <div class="container text-center">
-        <h2 class="text-primary mb-4">¡Contáctame Directamente!</h2>
-        <p class="lead mb-4">¡Hola! Soy Boody y te ofrezco un viaje auténtico a Egipto. Por saber mas info sobre el viaje de este año, puedes contactarme directamente a través de correo electrónico, WhatsApp o seguirme en Instagram.</p>
-        <div class="row justify-content-center">
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">Correo Electrónico</h5>
-                        <p class="card-text">¡Envíame un correo electrónico!</p>
-                        <a href="mailto:egipteboody@gmail.com" class="btn btn-primary"><i class="fas fa-envelope-open-text" style="color: #820064;"></i> Contactar por Email</a>
+
+
+    <div class="container-fluid py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="text-primary mb-4">¡Contáctame Directamente!</h2>
+            <p class="lead mb-4">¡Hola! Soy Boody y te ofrezco un viaje auténtico a Egipto. Para saber más información sobre el viaje de este año, puedes contactarme directamente a través de correo electrónico, WhatsApp o seguirme en Instagram.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Correo Electrónico</h5>
+                            <p class="card-text">¡Envíame un correo electrónico!</p>
+                            <a href="mailto:egipteboody@gmail.com" class="btn btn-primary rounded-pill"><i class="fas fa-envelope-open-text" style="color: #820064;"></i> Contactar por Email</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">WhatsApp</h5>
-                        <p class="card-text">¡Chateemos por WhatsApp!</p>
-                        <a href="https://wa.me/34642328023" class="btn btn-success"><i class="fab fa-whatsapp" style="color: #25D366;"></i> Chatear por WhatsApp</a>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">WhatsApp</h5>
+                            <p class="card-text">¡Chateemos por WhatsApp!</p>
+                            <a href="https://wa.me/34642328023" class="btn btn-success rounded-pill"><i class="fab fa-whatsapp" style="color: #25D366;"></i> Chatear por WhatsApp</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">Instagram</h5>
-                        <p class="card-text">¡Sígueme en Instagram!</p>
-                        <a href="https://www.instagram.com/egipteboody/" class="btn btn-info"><i class="fab fa-instagram" style="color: #8b002e;"></i> Seguir en Instagram</a>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Instagram</h5>
+                            <p class="card-text">¡Sígueme en Instagram!</p>
+                            <a href="https://www.instagram.com/egipteboody/" class="btn btn-info rounded-pill"><i class="fab fa-instagram" style="color: #8b002e;"></i> Seguir en Instagram</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Contact Directly End -->
+    
 
     <!-- Testimonial Start -->
     <div class="container-fluid py-5">

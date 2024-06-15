@@ -119,6 +119,7 @@
     </div>
     <!-- Header End -->
 
+    
 
     <!-- Booking Start -->
     <div class="container-fluid booking mt-5 pb-5">
@@ -174,11 +175,27 @@
     </div>
     <!-- Booking End -->
 
-
+    <div class="d-flex flex-column align-items-center justify-content-centertext-center mb-3 pb-3">
+        <a href="#ex-viajerxs" class="btn btn-lg btn-primary btn-lg-square opiniones-btn animated-bounce"><i class="fa fa-comments"></i> </a>
+        <a href="#ex-viajerxs" class="opiniones-btn btn btn-primary py-md-3 px-md-5 mt-2">mis ex viajeros</a>
+        <script>
+            document.querySelector('.opiniones-btn').addEventListener('click', function(e) {
+                e.preventDefault();
+                document.getElementById('ex-viajerxs').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        </script>
+    </div>
+    
+    
     <!-- Service Start -->
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
+            
+
             <div class="text-center mb-3 pb-3">
+                
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;"> proximo viaje: Octubre 2024 (el 3% va a Palestina)</h6>
                 <h1>7 dias (Grupo ya completo)</h1>
             </div>

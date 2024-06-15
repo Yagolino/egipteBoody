@@ -26,6 +26,7 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+<!-- Back to Bottom -->
 
 <body>
     <!-- Topbar Start -->
@@ -75,9 +76,15 @@
     <div class="bg-primary container-fluid position-relative nav-bar p-0 ">
         <div class=" container-lg position-relative p-0 px-lg-5" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-primary navbar-light shadow-lg py-3 py-lg-0 pl-5 pl-lg-5">
+                
+
                 <a href="" class=" navbar-brand">
                     <h2 class="m-0 "><span class="text-dark">Egipte con</span> <span class="text-white">Boody</span>  <span class="hobby-font text-white"><h5>una experiencia, sin agencia</h5></span> </h2>
                 </a>
+               
+
+
+
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -117,9 +124,21 @@
                     <img class="w-100" src="img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 700px;">
+                            
                             <h4 class="text-primary  text-uppercase mb-md-3">Un viaje sin agencia de viaje</h4>
                             <h3 class="text-white mb-md-4">Sumérgete en la Cultura conmigo</h3>
-                            <a href="service.html" class="btn btn-primary py-md-3 px-md-5 mt-2">Reserva Ara</a>
+                            <div>
+                                <a href="#ex-viajerxs" class="btn btn-lg btn-primary btn-lg-square opiniones-btn animated-bounce"><i class="fa fa-comments"></i> </a>
+                                <script>
+                                    document.querySelector('.opiniones-btn').addEventListener('click', function(e) {
+                                        e.preventDefault();
+                                        document.getElementById('ex-viajerxs').scrollIntoView({
+                                            behavior: 'smooth'
+                                        });
+                                    });
+                                </script>
+                            </div>
+                            <a href="#ex-viajerxs" class="opiniones-btn btn btn-primary py-md-3 px-md-5 mt-2">mis ex viajeros</a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +148,18 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-primary text-uppercase mb-md-3">un viaje sin agencia de viaje</h4>
                             <h3 class=" text-white mb-md-4">Descubre el Verdadero Egipto conmigo</h3>
-                            <a href="service.html" class="btn btn-primary py-md-3 px-md-5 mt-2">Reserva ahora</a>
+                            <div>
+                                <a href="#ex-viajerxs" class="btn btn-lg btn-primary btn-lg-square opiniones-btn animated-bounce"><i class="fa fa-comments"></i> </a>
+                                <script>
+                                    document.querySelector('.opiniones-btn').addEventListener('click', function(e) {
+                                        e.preventDefault();
+                                        document.getElementById('ex-viajerxs').scrollIntoView({
+                                            behavior: 'smooth'
+                                        });
+                                    });
+                                </script>
+                            </div>
+                            <a href="#ex-viajerxs" class="opiniones-btn btn btn-primary py-md-3 px-md-5 mt-2">mis ex viajeros</a>
                         </div>
                     </div>
                 </div>
@@ -648,7 +678,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
+    <div  id="ex-viajerxs" class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Ex Viajerxs con Boody</h6>
