@@ -9810,15 +9810,15 @@ h6,
   margin: 10px;
   padding: 10px;
   border-radius: 50%;
-  background-color: #007bff;
-  color: white;
+  background-color: #de6f14;
+  color: de6f14;
   text-align: center;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 .opiniones-btn:hover {
-  background-color: #eb640b;
+  background-color: #de6f14;
 }
 
 
@@ -9845,8 +9845,8 @@ h6,
       margin: 10px;
       padding: 10px 20px; /* Ajusta el relleno para tu diseño */
       border-radius: 50px; /* Bordes redondeados */
-      background-color: white; /* Color de fondo blanco */
-      color: black; /* Color de texto negro */
+      background-color: de6f14; /* Color de fondo blanco */
+      color: white; /* Color de texto negro */
       border: 2px solid black; /* Borde negro */
       text-align: center;
       text-decoration: none;
@@ -9857,9 +9857,9 @@ h6,
         margin: 10px;
         padding: 10px 20px; /* Ajusta el relleno para tu diseño */
         border-radius: 50px; /* Bordes redondeados */
-        background-color: white; /* Color de fondo blanco */
+        background-color: #de6f14; /* Color de fondo blanco */
         color: black; /* Color de texto negro */
-        border: 2px solid black; /* Borde negro */
+        border: 1px solid black; /* Borde negro */
         text-align: center;
         text-decoration: none;
         transition: background-color 0.3s ease, color 0.3s ease;
